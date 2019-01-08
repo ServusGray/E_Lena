@@ -55,6 +55,24 @@ nav {
     color: #fff;
 }
 
+.head-cont > h3:before {
+    content: "";
+    background: orange;
+    position: absolute;
+    display: inline-block;
+    height: 1px;
+    width: 30px;
+}
+
+.head-cont > h3:after {
+    content: "";
+    background: orange;
+    position: absolute;
+    display: inline-block;
+    height: 1px;
+    width: 30px;
+}
+
 .butt {
     background-color: #66cc99;
     font: 20px Ubuntu,bold;
@@ -193,4 +211,26 @@ nav {
 
 .feedback-item > img {
     float: left;
+}
+
+.feedback-butt {
+    background-color: #66cc99;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 35px;
+    padding: 0 15px;
+	margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.feedback-butt:hover {
+    background-color: #009966;
+    color: black;
+}
+
+.line {
+    border: 1px solid lightgray;
 }
