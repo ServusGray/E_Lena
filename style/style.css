@@ -234,3 +234,24 @@ nav {
 .line {
     border: 1px solid lightgray;
 }
+
+.themeforest-cont > img {
+    float: left;
+}
+
+.themeforest-butt {
+    background-color: #d2d5da;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	height: 35px;
+    padding: 0 15px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.themeforest-butt:hover {
+    background-color: #999999;
+}
