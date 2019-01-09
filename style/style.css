@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-
 @font-face {
     font-family: Ubuntu;
     src: url(../fonts/Ubuntu-B.ttf)
@@ -15,20 +14,21 @@ header {
     background: url(../img/bg.jpg) no-repeat; 
     background-size: cover;
 }
- .container {
+
+.section {
     margin: 0 auto; 
     border: 1px solid palevioletred;
     max-width: 960px;
  }
 
- nav a {
+nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     margin: 0 20px;
  }
 
- nav a:hover {
+nav a:hover {
     color: lightslategray;
  }
 
@@ -95,7 +95,7 @@ nav {
 
 .features {
     text-align: center;
-    background: url(../img/features-bg.png) no-repeat; 
+    background: url(../img/features-bg.png) /*no-repeat*/; 
     background-size: cover;
 }
 
