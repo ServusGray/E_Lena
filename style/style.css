@@ -107,13 +107,11 @@ nav {
 
 .features {
     text-align: center;
-    background: url(../img/features-bg.png) /*no-repeat*/; 
-    background-size: cover;
+    background-color: #eaeaeb; 
 }
 
 .col {
     padding: 0 24px;
-    /*width: 50%;*/
 }
 
 .col > h4 {
@@ -148,8 +146,8 @@ nav {
 
 .template-col > img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 265px;
+    height: 160px;
 }
 
 .temp-butt {
@@ -174,6 +172,7 @@ nav {
     text-align: left;
     min-height: 200px;
     margin: 0 auto;
+    background-color: #eaeaeb;
     /*border: 1px solid palevioletred;*/
     /*max-width: 960px;*/
 }
@@ -222,6 +221,7 @@ nav {
 
 .feedback {
     min-height: 200px;
+    background-color: #eaeaeb;
 }
 
 .feedback-item {
