@@ -7,6 +7,18 @@
     font-family: Ubuntu;
     src: url(../fonts/Ubuntu-B.ttf)
 }
+@font-face {
+    font-family: Cabin;
+    src: url(../fonts/Cabin-Regular.ttf)
+}
+@font-face {
+    font-family: Nexa;
+    src: url(../fonts/NexaRegular.otf)
+}
+@font-face {
+    font-family: Belinda;
+    src: url(../fonts/belinda.otf)
+}
 
 header {
     text-align: center;
@@ -17,20 +29,20 @@ header {
 
 .section {
     margin: 0 auto; 
-    border: 1px solid palevioletred;
+    /*border: 1px solid palevioletred;*/
     max-width: 960px;
- }
+}
 
 nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     margin: 0 20px;
- }
+}
 
 nav a:hover {
     color: lightslategray;
- }
+}
 
 .logo {
     padding-top: 66px;
@@ -276,4 +288,35 @@ nav {
 
 .featured-on-cont {
     text-align: center;
+}
+
+.featured-on-nav-bar {
+    padding: 30px 0;
+}
+
+.featured-on-nav-bar > a {
+    margin: 0 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #cbede7;
+    padding: 0 50px;
+}
+
+.featured-on-nav-bar > a:first-child {
+    font: 26px Belinda;
+    padding-left: 10px;
+}
+
+.featured-on-nav-bar > a:nth-child(2) {
+    font: 26px Nexa;
+}
+
+.featured-on-nav-bar > a:nth-child(3) {
+    font: 26px Cabin;
+}
+
+.featured-on-nav-bar > a:last-child {
+    font: 26px Nexa;
+    font-weight: bold;
+    padding-right: 10px;
 }
