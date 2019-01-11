@@ -160,10 +160,10 @@ nav {
 
 .support {
     text-align: left;
-    min-height: 328px;
+    min-height: 200px;
     margin: 0 auto;
-    border: 1px solid palevioletred;
-    max-width: 960px;
+    /*border: 1px solid palevioletred;*/
+    /*max-width: 960px;*/
 }
 
 .fully-support > img {
@@ -200,8 +200,16 @@ nav {
     width: 33.3%;
 }
 
+.check-it-col > img {
+    max-height: 240px;
+    max-width: 240px;
+}
 .check-it-cont > .row {
     padding: 60px 0;
+}
+
+.feedback {
+    min-height: 200px;
 }
 
 .feedback-item {
@@ -237,6 +245,8 @@ nav {
 
 .themeforest-cont > img {
     float: left;
+    max-height: 209px;
+    max-width: 209px;
 }
 
 .themeforest-butt {
@@ -246,7 +256,7 @@ nav {
 	border-radius: 30px;
 	height: 35px;
     padding: 0 15px;
-	margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block;
     cursor: pointer;
@@ -254,4 +264,16 @@ nav {
 
 .themeforest-butt:hover {
     background-color: #999999;
+}
+.themeforest-sub-cont {
+    margin-left: 240px;
+}
+
+.featured-on {
+    background-color: #50c3af;
+    background-size: cover;
+}
+
+.featured-on-cont {
+    text-align: center;
 }
